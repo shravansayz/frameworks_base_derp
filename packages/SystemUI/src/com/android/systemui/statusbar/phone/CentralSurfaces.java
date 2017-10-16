@@ -353,4 +353,8 @@ public interface CentralSurfaces extends Dumpable, LifecycleOwner, CoreStartable
             ExpandableNotificationRow associatedView);
 
     void setBlockedGesturalNavigation(boolean blocked);
+
+    void brightnessControl(MotionEvent event);
+
+    void onBrightnessChanged(boolean upOrCancel);
 }
