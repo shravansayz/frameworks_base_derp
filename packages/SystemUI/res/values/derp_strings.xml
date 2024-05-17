@@ -124,6 +124,8 @@
     <string name="navbar_editor_summary">Configure navigaton bar</string>
     <!-- SysUI Tuner: Adjust button width dialog title [CHAR LIMIT=60] -->
     <string name="adjust_button_width">Adjust button width</string>
+    <string name="navbar_force_menu_key_title">Force menu key</string>
+    <string name="navbar_force_menu_key_summary">Always show the menu key regardless of the context</string>
 
     <!-- Label for notification action to delete a screen recording file [CHAR LIMIT=35] -->
     <string name="screenrecord_delete_label">Delete</string>
