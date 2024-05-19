@@ -108,4 +108,7 @@
     </string-array>
     <string-array name="device_configs_override" translatable="false">
     </string-array>
+
+    <!-- Whether to show options menu in apps targeting honeycomb -->
+    <bool name="target_honeycomb_needs_options_menu">true</bool>
 </resources>
