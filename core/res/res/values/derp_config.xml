@@ -111,4 +111,7 @@
 
     <!-- Whether to show options menu in apps targeting honeycomb -->
     <bool name="target_honeycomb_needs_options_menu">true</bool>
+
+    <!-- PowerOffAlarmService -->
+    <bool name="config_powerOffAlarmEnabled">false</bool>
 </resources>
