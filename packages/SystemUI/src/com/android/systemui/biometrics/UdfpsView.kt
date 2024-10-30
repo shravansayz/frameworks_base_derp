@@ -73,6 +73,11 @@ class UdfpsView(
         return (animationViewController == null || !animationViewController!!.shouldPauseAuth())
     }
 
+    override fun onFinishInflate() {
+        super.onFinishInflate()
+        ghbmView = findViewById(R.id.hbm_view)
+    }
+
     override fun dozeTimeTick() {
         animationViewController?.dozeTimeTick()
     }
