@@ -6525,16 +6525,6 @@ public final class Settings {
         public static final String LOCK_GESTURE_STATUS = "lock_gesture_status";
 
         /**
-         * @hide
-         */
-        public static final String LOCKSCREEN_WEATHER_ENABLED = "lockscreen_weather_enabled";
-
-        /**
-         * @hide
-         */
-        public static final String LOCKSCREEN_WEATHER_LOCATION = "lockscreen_weather_location";
-
-        /**
          * IMPORTANT: If you add a new public settings you also have to add it to
          * PUBLIC_SETTINGS below. If the new setting is hidden you have to add
          * it to PRIVATE_SETTINGS below. Also add a validator that can validate
@@ -13027,10 +13017,11 @@ public final class Settings {
                 "contextual_screen_timeout_enabled";
 
         /**
-         * Whether lockscreen smartspace is enabled.
+         * Whether lockscreen weather is enabled.
+         *
          * @hide
          */
-        public static final String LOCKSCREEN_SMARTSPACE_ENABLED = "lockscreen_smartspace_enabled";
+        public static final String LOCK_SCREEN_WEATHER_ENABLED = "lockscreen_weather_enabled";
 
         /**
          * Whether the feature that the device will fire a haptic when users scroll and hit
